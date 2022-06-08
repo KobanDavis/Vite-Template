@@ -1,7 +1,7 @@
-import { VFC } from 'react'
+import { FC } from 'react'
 import { EmojiHappyIcon } from '@heroicons/react/outline'
 
-const App: VFC = () => {
+const App: FC = () => {
 	return (
 		<div className='bg-slate-100 flex flex-col justify-center items-center w-screen h-screen'>
 			<span className='items-center text-3xl mb-2'>Vite Template</span>
