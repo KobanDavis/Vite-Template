@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import { EmojiHappyIcon } from '@heroicons/react/outline'
+import { FaceSmileIcon } from '@heroicons/react/24/outline'
 
 const App: FC = () => {
 	return (
@@ -9,7 +9,7 @@ const App: FC = () => {
 				<span>
 					Edit <code className='bg-slate-200 px-1 py-px'>App.tsx</code> to get started
 				</span>
-				<EmojiHappyIcon className='inline h-6 w-6 ml-1' />
+				<FaceSmileIcon className='inline h-6 w-6 ml-1' />
 			</span>
 		</div>
 	)
