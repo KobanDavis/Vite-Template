@@ -1,7 +1,11 @@
+const { kdUI } = require('@kobandavis/ui')
+
 module.exports = {
 	content: ['src/**/*.{ts,tsx}'],
 	theme: {
-		extend: {},
+		extend: {}
 	},
-	plugins: [],
+	plugins: []
 }
+
+kdUI(module.exports)
